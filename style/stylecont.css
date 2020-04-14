@@ -1,0 +1,45 @@
+/*body*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(255, 255, 110);
+}
+
+/*navbar*/
+
+nav {
+    background-color: yellow;
+}
+.mynavlist {
+    justify-content: flex-end;
+  }
+
+.navbar-brand {
+    color: black;
+    font-family: 'Space Mono', monospace;
+
+}
+.nav-link {
+    color:black;
+    font-family: 'Space Mono', monospace;
+
+}
+
+/*main*/
+main {
+    margin-top: 5em;
+    font-family: 'Space Mono', monospace;
+}
+.row {
+    justify-content: space-evenly;
+}
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+}
