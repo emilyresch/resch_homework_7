@@ -16,7 +16,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="./style/styleproj.css">
+    <link rel="stylesheet" href="./style/stylecont.css">
     <script src="https://kit.fontawesome.com/ad020ced0c.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
     <link rel="icon" 
@@ -27,7 +27,7 @@
 <body>
     <div class="container">
         <!-- NAVBAR -->
-       
+
         <div class="row-lg">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="index.html">Home</a>
@@ -49,50 +49,42 @@
             </nav>
         </div>
         <!-- END NAVBAR-->
-        <main class="project-cards">
-            <div class="row title">
-                <h3>Some of my projects...</h3>
-            </div>
-        <div class="row">
-            <div class="col-4">
-                <div class="card" style="width: 100%;">
-                    <img src="https://sourcery.ai/static/8bd4114da4db25ae197f53bad36c7c36/12609/code.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Code Refactor</h5>
-                        <p class="card-text">Given code that I refactored.</p>
-                        <a href="https://emilyresch.github.io/resch_homework_1/" class="btn">See it!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width: 100%;">
-                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fakebeers-1563897135.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Beer Picker</h5>
-                        <p class="card-text">This is the first group project I worked on in bootcamp.</p>
-                        <a href="https://pyhurst.github.io/Project_1_Brew/" class="btn">See it!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width: 100%;">
-                    <img src="https://i.pcmag.com/imagery/articles/04Uac9ZA9dH1zEKUiIv0nOu-7.fit_scale.size_2698x1517.v1569489914.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Password Generator</h5>
-                        <p class="card-text">A website that will help you find a safe password</p>
-                        <a href="https://emilyresch.github.io/resch_homework_3/" class="btn">See it!</a>
-                    </div>
-                </div>
-            </div>
-            
 
+        <main>
+        <form action="/action_page.php">
+            <div class="row">
+          <h3>Let's Connect!</h3>
         </div>
-    </main>
-
-
-
+              <div class="row">
+                <div class="col-sm-9">
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-9">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-9">
+                  <div class="form-group input-group-lg">
+                    <label>Message</label>
+                    <textarea class="form-control" rows="5" id="comment" placeholder="Say hi..."></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
+        </main>
     </div>
 </body>
-
 
 </html>
