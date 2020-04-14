@@ -1,0 +1,38 @@
+/*body*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(255, 255, 110);
+}
+
+/*navbar*/
+.mynavlist {
+    justify-content: flex-end;
+  }
+
+.navbar-brand {
+    color: black;
+    font-family: 'Space Mono', monospace;
+
+}
+.nav-link {
+    color:black;
+    font-family: 'Space Mono', monospace;
+
+}
+
+/*main area */
+.image-div {
+    text-align: center;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    font-family: 'Space Mono', monospace;
+}
