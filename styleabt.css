@@ -8,6 +8,10 @@ body {
 }
 
 /*navbar*/
+
+nav {
+    background-color: yellow;
+}
 .mynavlist {
     justify-content: flex-end;
   }
@@ -23,16 +27,27 @@ body {
 
 }
 
-/*main area */
-.image-div {
-    text-align: center;
-}
+/*img area */
+
 
 img {
     margin-left: auto;
     margin-right: auto;
+    border-radius: 30px;
 }
 
+.img-grey {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* main area */
 main {
+    margin-top: 2em;
     font-family: 'Space Mono', monospace;
+}
+
+/* bio area*/
+.img-column h4 {
+    margin-bottom: 3em;
 }

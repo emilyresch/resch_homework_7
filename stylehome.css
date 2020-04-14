@@ -22,9 +22,9 @@ body {
 
 
 /*main*/
-main {
+.section1 {
     font-family: 'Space Mono', monospace;
-    margin-top: 5em;
+    margin-top: 7em;
 }
 
 .home-items {
