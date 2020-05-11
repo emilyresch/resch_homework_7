@@ -58,7 +58,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## Heroku
-<Heroku link to come!>
+Heroku link to come!, please see my portfolio here! <https://emilyresch.github.io/resch_homework_7/>
 
 
 _____________________
