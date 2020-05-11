@@ -4,7 +4,6 @@
 _________________________
 
 ![Repo Size badge](https://img.shields.io/github/repo-size/emilyresch/resch_homework_7)
-![File Size badge](https://img.shields.io/github/size/emilyresch/resch_homework_7)
 ![GitHub License](https://img.shields.io/github/license/emilyresch/resch_homework_7)
 
 _________________________
@@ -58,7 +57,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-##Heroku
+## Heroku
 <Heroku link to come!>
 
 
