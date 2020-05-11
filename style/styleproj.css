@@ -36,6 +36,10 @@ main {
    justify-content: space-evenly;
 }
 
+.card {
+    margin-bottom: 30px;
+}
+
 .btn {
     background-color: yellow;
 }
