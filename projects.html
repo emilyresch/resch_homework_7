@@ -22,6 +22,10 @@
     <link rel="icon" 
       type="image/png" 
       href="./images/bee_PNG74716.png">
+    <!-- animate on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -38,10 +42,10 @@
                 <div class="collapse navbar-collapse mynavlist" id="navbarNav">
                     <ul class="navbar-nav mynavlist">
                         <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/emilyresch">My GitHub</a>
+                            <a class="nav-link mynavs" target="_blank" href="https://github.com/emilyresch">My GitHub</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.linkedin.com/in/emily-resch-65b68011b/">My
+                            <a class="nav-link mynavs" target="_blank" href="https://www.linkedin.com/in/emily-resch-65b68011b/">My
                                 LinkedIn</a>
                         </li>
                     </ul>
@@ -51,10 +55,13 @@
         <!-- END NAVBAR-->
         <main class="project-cards">
             <div class="row title">
+                <div data-aos="fade-up">
                 <h3>Some of my projects...</h3>
+            </div>
             </div>
         <div class="row">
             <div class="col-4">
+                <div data-aos="fade-up">
                 <div class="card" style="width: 100%;">
                     <img src="https://sourcery.ai/static/8bd4114da4db25ae197f53bad36c7c36/12609/code.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -64,7 +71,9 @@
                     </div>
                 </div>
             </div>
+            </div>
             <div class="col-4">
+                <div data-aos="fade-up">
                 <div class="card" style="width: 100%;">
                     <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fakebeers-1563897135.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -74,7 +83,9 @@
                     </div>
                 </div>
             </div>
+            </div>
             <div class="col-4">
+                <div data-aos="fade-up">
                 <div class="card" style="width: 100%;">
                     <img src="https://i.pcmag.com/imagery/articles/04Uac9ZA9dH1zEKUiIv0nOu-7.fit_scale.size_2698x1517.v1569489914.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -84,17 +95,21 @@
                     </div>
                 </div>
             </div>
+            </div>
             <div class="col-4">
+                <div data-aos="fade-up">
                 <div class="card" style="width: 100%;">
                     <img src="https://66.media.tumblr.com/tumblr_lz8hw14V2C1r5mnvxo4_250.gif" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Eat-Da Burger</h5>
+                        <h5 class="card-title">Eat-Da-Burger</h5>
                         <p class="card-text">Craving a burger? Use this app to devour any burger you desire!</p>
                         <a href="https://guarded-coast-61271.herokuapp.com/" class="btn">See it!</a>
                     </div>
                 </div>
+                </div>
             </div>
             <div class="col-4">
+                <div data-aos="fade-up">
                 <div class="card" style="width: 100%;">
                     <img src="images/readmepicture.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -104,7 +119,9 @@
                     </div>
                 </div>
             </div>
+            </div>
             <div class="col-4">
+                <div data-aos="fade-up">
                 <div class="card" style="width: 100%;">
                     <img src="images/notetaker.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -114,14 +131,22 @@
                     </div>
                 </div>
             </div>
+            </div>
 
         </div>
     </main>
-
-
-
     </div>
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 
 </html>
+
+<!-- FADE
+<div data-aos="fade-up"></div>
+FLIP
+<div data-aos="flip-left"></div>
+<div data-aos="flip-right"></div> -->

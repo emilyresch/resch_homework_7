@@ -1,10 +1,10 @@
 /*body*/
-*{
+* {
     box-sizing: border-box;
 }
 
 body {
-    background-color:rgb(255, 255, 110);
+    background-color: rgb(255, 255, 110);
 }
 
 /*navbar*/
@@ -12,17 +12,37 @@ body {
 nav {
     background-color: yellow;
 }
+
 .mynavlist {
     justify-content: flex-end;
-  }
+}
 
-.navbar-brand {
+.navbar-brand:hover {
     color: black;
     font-family: 'Space Mono', monospace;
+    color: black;
+    font-family: 'Space Mono', monospace;
+    box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+
 
 }
+
+.mynavs:hover {
+    box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
 .nav-link {
-    color:black;
+    color: black;
     font-family: 'Space Mono', monospace;
 
 }
@@ -32,9 +52,11 @@ main {
     margin-top: 5em;
     font-family: 'Space Mono', monospace;
 }
+
 .row {
     justify-content: space-evenly;
 }
+
 .btn {
     background-color: black;
     color: white;

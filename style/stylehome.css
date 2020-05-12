@@ -1,23 +1,40 @@
 /*body*/
 body {
-    background-color:rgb(255, 255, 110);
+    background-color: rgb(255, 255, 110);
+    height: 70em;
 }
 
 /*navbar*/
 .mynavlist {
     justify-content: flex-end;
-  }
+}
 
-.navbar-brand {
+.navbar-brand:hover {
     color: black;
     font-family: 'Space Mono', monospace;
+    box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
 
 }
+
 .nav-link {
-    color:black;
+    color: black;
     font-family: 'Space Mono', monospace;
-
 }
+
+.mynavs:hover {
+    box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
 nav {
     background-color: yellow;
 }
@@ -44,12 +61,16 @@ nav {
     color: black;
     opacity: 1;
     /* transition: 0.3s; */
+    -webkit-transform: rotateZ(-15deg);
+    -ms-transform: rotateZ(-15deg);
+    transform: rotateZ(-15deg);
 }
 
+/* .rotate:hover
+{
+       
+} */
 /*scroll button*/
 .scroll {
     margin: auto;
 }
-
-
-
